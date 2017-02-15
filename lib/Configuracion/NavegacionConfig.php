@@ -27,7 +27,7 @@ namespace Configuracion;
  */
 class NavegacionConfig {
 
-    protected $sitio_titulo  = 'Movimiento Libre';
+    protected $sitio_titulo  = 'Sí Contamos';
     protected $logotipo; // 'imagenes/logotipo.png'
     protected $opciones      = array(
         'Artículos' => 'blog/index.html',

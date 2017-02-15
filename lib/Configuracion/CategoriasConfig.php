@@ -44,9 +44,9 @@ class CategoriasConfig {
      */
     public function __construct() {
         // Categoría constructor parámetros: nombre, icono, descripcion, estatus
-        $this->categorias[] = new \Base\Categoria('Conferencias','calligrastage',          'Las experiencias de compartir conocimiento en comunidad.');
-        $this->categorias[] = new \Base\Categoria('Educación',   'applications-education', 'Sobre educación e instituciones educativas.');
-        $this->categorias[] = new \Base\Categoria('Política',    'unknown',                'Actividades gubernamentales y cívicas.');
+        $this->categorias[] = new \Base\Categoria('Conferencias', 'calligrastage',          'Las experiencias de compartir conocimiento en comunidad.');
+        $this->categorias[] = new \Base\Categoria('Educación',    'applications-education', 'Sobre educación e instituciones educativas.');
+        $this->categorias[] = new \Base\Categoria('Política',     'unknown',                'Actividades gubernamentales y cívicas.');
     } // constructor
 
     /**

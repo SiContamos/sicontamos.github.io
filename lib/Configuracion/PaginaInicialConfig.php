@@ -37,7 +37,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         parent::__construct();
         // Propiedades para la página inicial
         $this->en_raiz                  = true;
-        $this->titulo                   = 'sÍ cONTAMOS';
+        $this->titulo                   = 'Sí Contamos';
     //~ $this->autor                    = '';
         $this->descripcion              = 'Descripción.';
         $this->claves                   = '';
